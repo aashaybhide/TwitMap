@@ -1,2 +1,3 @@
 # Module googleapp
 # RPC service class, partial path of RPC policy file
+com.example.project.client.GreetingService, 3B0E44DFF0A2E078BD65360CDD1FCBF1.gwt.rpc

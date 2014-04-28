@@ -28,7 +28,7 @@ public class MyServlet extends HttpServlet {
 		String submit = request.getParameter("submit");
 
 		if(submit.equals("ReIndex")){	
-//			reindexAction(keyword);
+			reindexAction(keyword);
 			response.sendRedirect("../TwitMap.jsp");
 		}
 		else if(submit.equals("Search")){

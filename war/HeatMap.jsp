@@ -41,7 +41,6 @@ var map, pointarray, heatmap;
 	    taxiData.push(new google.maps.LatLng(<%= listLat.get(i)%>, <%= listLng.get(i)%>));	    
   <%}%>
 
-
 function initialize() {
   var mapOptions = {
     zoom: 2,
